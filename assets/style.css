@@ -20,7 +20,7 @@ body{
 
 main{
     position: relative;
-    height:100vh;
+    height: 100vh;
 }
 
 section#telefone{
@@ -28,8 +28,34 @@ section#telefone{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
     height: 627px;
     width: 311px;
     background: url(../pacote-d013/imagens/frame-iphone.png) no-repeat;
+}
+
+#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 264px;
+    height: 468px;
+}
+
+#redes-sociais{
+    text-align: right;
+}
+
+#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
+}
+
+#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.603);
+    transform: translate(-3px, -3px);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+    transition: transform 0.5s, border 1s;
 }
